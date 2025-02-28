@@ -10,7 +10,6 @@ import { RegisterloginComponent } from './pages/registerlogin/registerlogin.comp
 export const routes: Routes = [
 
     {path: '', component: LandingComponent},
-    // {path:'Register', component: RegisterloginComponent},
     {path: 'home', component: HomeComponent},
     {path: 'info/:contry_name', component: InfoComponent},
     {path: 'info', component: InfoComponent},
