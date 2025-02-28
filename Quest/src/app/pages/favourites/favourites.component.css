@@ -1,0 +1,100 @@
+.favourites-page {
+    padding: 2rem; 
+    font-family: 'Poppins', sans-serif; 
+    /* height: 100vh;  */
+  }
+  
+  .favourites-page h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #2c3e50; 
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px; 
+    margin-top: 80px;
+  }
+  
+  .favourites-page p {
+    text-align: center;
+    font-size: 19px;
+    color: #7f8c8d; 
+    margin-top: 2rem;
+    font-style: italic; 
+  }
+  
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem; 
+    margin-top: 1.5rem;
+  }
+  
+  .cards {
+    width: 320px;
+    background-color: #ffffff; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
+    border-radius: 15px; 
+    overflow: hidden;
+    transition: transform 0.4s, box-shadow 0.4s;
+    margin-top: -20px;
+  }
+  
+  .cards:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .card {
+    padding: 1.5rem;
+    text-align: center; 
+  }
+  
+  .flags img {
+    width: 150px;
+    height: 150px; 
+    object-fit: cover; 
+    margin-bottom: 1rem;
+    border: 2px solid #e0e0e0; 
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .names h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #34495e; 
+    margin: 0;
+    text-transform: capitalize;
+  }
+  
+  .names h5 span {
+    color: #3498db; 
+    font-weight: 600;
+  }
+  
+  @media (max-width: 768px) {
+    .cards {
+      width: calc(100% - 2rem);
+      margin: 1rem;
+    }
+  
+    .favourites-page h1 {
+      font-size: 2.5rem;
+    }
+  }
+  .backBtn {border-radius: 50px;
+width: 200px;
+}
+
+  .center-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+ margin-top: 30px;
+  }
+  .main:hover{
+    cursor: pointer;
+  }

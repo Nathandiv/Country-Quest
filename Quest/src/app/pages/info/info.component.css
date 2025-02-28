@@ -1,0 +1,57 @@
+.countryName{
+    font-size: 20px;
+    font-weight: 400;
+}
+.coatOfArms{
+    height: 60px;
+    margin-left: 30px;
+}
+span{
+    font-weight: 600;
+}
+h5{
+    font-weight: 600;
+    font-size: 18px;
+}
+.paragraph{
+    font-weight: 500;
+}
+
+a{
+    color: rgb(32, 32, 177);
+}
+.timeZone{
+    font-size: 14px;
+    font-weight: bold;
+     
+}
+.backBtn{
+   margin-top: 120px;
+   width: 200px;
+   border-radius: 50px;
+}
+img{
+    border: solid rgba(204, 204, 204, 0.788);
+    margin-top: 250px;
+}
+.borders{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.liked{
+     text-align: center;
+     align-items: center;
+      justify-content: center;
+ }
+.size-6{
+    margin-top: -18px;
+    padding-left: 3px;
+}
+
+section{
+    margin-top: -100px;
+}
+.active{
+    color: red;
+  }

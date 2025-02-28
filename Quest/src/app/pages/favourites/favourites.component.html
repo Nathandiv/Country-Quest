@@ -1,0 +1,31 @@
+<app-nav/>
+<div class="favourites-page">
+    <h3>Your Favourite Countries</h3>
+    
+    <div *ngIf="favouritedCountries.length === 0">
+      <p>No countries have been liked yet.</p>
+    </div>
+  
+    <div class="main flex flex-wrap">
+      <div *ngFor="let item of favouritedCountries" class="max-w-sm bg-white shadow rounded-lg m-auto mt-20 cards">
+        <div class="p-5 card" routerLink="/info/{{item?.name.common}}">
+          <div class="countries">
+            <div class="images">
+              <div class="flags">
+                <img [src]="item.flags.png" alt="{{ item?.name.common }}" />
+              </div>
+              <div class="names">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-pink-900">
+                  {{ item?.name.common }} ({{ item?.region }})
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="center-container">
+    <button [routerLink]="[ '/home'  ]" routerLinkActive="active" class="text-center text-white bg-[#003366] border-0 py-2 px-6 focus:outline-none rounded text-lg backBtn">Back</button>
+</div>
+  </div>
+  <app-footer/>
