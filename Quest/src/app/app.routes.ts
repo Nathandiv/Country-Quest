@@ -14,6 +14,5 @@ export const routes: Routes = [
     {path: 'info/:contry_name', component: InfoComponent},
     {path: 'info', component: InfoComponent},
     {path: 'favourites', component: FavouritesComponent},
-    // {path: 'login', component:LoginComponent},
     {path: '**', component: ErrorComponent, redirectTo:''}
 ];
